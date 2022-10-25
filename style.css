@@ -1,9 +1,6 @@
 /* Header Styling */
 .header{
    background-color: var(--primary);
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
 .header-container{
@@ -21,6 +18,21 @@
    width: 15px;
    height: 15px;
 }
+
+/* 
+ * Hero Banner
+ */
+ .hb-heading,
+ .hb-subheading {
+   text-align: right;
+ }
+
+.hero-banner{
+   background-image: url(./assets/HB.png);
+   background-repeat: no-repeat;
+   object-fit: contain;
+}
+
 
 
 

@@ -1,0 +1,55 @@
+/* 
+ * Define Padding
+ */
+ .p-r-only-128 {
+    padding-right: 8em;
+ }
+/* 
+ * Define Dimension
+ */
+ .w-100-h-80 {
+    width: 100%;
+    height: 80vh;
+ }
+
+ .w-35{
+    width: 35%;
+ }
+
+ /* 
+ * Define Display
+ */
+ .d-flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-center-end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* 
+ * Define Typography
+ */
+ .f-heading {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 105.5%;
+    color: var(--primary);
+ }
+
+ .f-p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--primary);
+ }
+
+
