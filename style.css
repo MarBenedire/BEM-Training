@@ -48,6 +48,33 @@
    margin: 0 20px;
  }
 
+ /* 
+  * Enquire
+  */
+  .enquire-column-40{
+   width: 40%;
+   padding: 101px 0;
+  }
+
+  .enquire-column-60{
+   width:60%;
+   flex-direction: column;
+  }
+
+  .enquire-heading{
+   width: 35%;
+   font-size: 36px;
+   line-height: 111%;
+   text-align: center;
+   color: #F1F3F4;
+  }
+
+  .enquire-btn {
+   background-color: var(--red);
+   padding: 20px 40px;
+  }
+
+
 
 
 

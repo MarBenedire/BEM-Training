@@ -21,11 +21,13 @@
     width: 35%;
  }
 
- 
-
  /* 
  * Define Display
  */
+ .d-flex {
+    display: flex;
+}
+
  .d-flex-center-center {
     display: flex;
     justify-content: center;
@@ -59,4 +61,17 @@
     color: var(--primary);
  }
 
+ /* 
+ * Define Background
+ */
+ .bg-img-1{
+    background-image: url(./assets/trademe-BG.png);
+    background-repeat: no-repeat;
+ }
+
+ .bg-img-2{
+    background-image: url(./assets/trademe-BG2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
