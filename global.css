@@ -1,0 +1,26 @@
+/*
+ * Define Font Face
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@500;700&display=swap');
+/* 
+ * Define Global Colors
+ */
+:root {
+    --primary: #292733;
+    --secondary: #FFFFFF;
+    --red: #C20502;
+}
+
+body a,
+body p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--secondary);
+    line-height: 24px;
+}
+
+
+
+
