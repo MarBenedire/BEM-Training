@@ -12,9 +12,16 @@
     height: 80vh;
  }
 
+ .w-100-h-30 {
+    width: 100%;
+    height: 30vh;
+ }
+
  .w-35{
     width: 35%;
  }
+
+ 
 
  /* 
  * Define Display
