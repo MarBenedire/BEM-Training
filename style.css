@@ -33,7 +33,20 @@
    object-fit: contain;
 }
 
+/* 
+ * Service Section 
+ */
+ .service-title{
+   width: 50%;
+   font-size: 20px;
+   color: var(--secondary);
+   text-align: center;
+ }
 
+ .service-items{
+   flex-direction: column;
+   margin: 0 20px;
+ }
 
 
 
