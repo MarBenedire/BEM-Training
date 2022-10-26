@@ -21,6 +21,10 @@
    padding:0 40px;
 }
 
+.cs__p-s-70 {
+   padding:0 70px;
+}
+
 /* 
  * Define Padding
  */
@@ -53,6 +57,9 @@
     /* width: 100%; */
     height: 20em;
  }
+ .cs__w-50 {
+   width: 50%;
+}
 
  .cs__w-35{
     width: 35%;
@@ -145,6 +152,10 @@
    font-size: 36px;
 }
 
+.cs__s-40 {
+   font-size: 40px;
+}
+
 .cs__s-64 {
    font-size: 64px;
 }
@@ -170,6 +181,12 @@
 
  .cs__bg-img-3{
    background-image: url(./assets/quality-BG.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.cs__bg-img-4{
+   background-image: url(./assets/forestry.png);
    background-repeat: no-repeat;
    background-size: cover;
 }
