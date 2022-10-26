@@ -8,23 +8,48 @@
 :root {
     --primary: #292733;
     --secondary: #FFFFFF;
+    --secondary-alt: #F1F3F4;
     --red: #C20502;
+    --black: #000000;
 }
 
 /* 
  * Define Background Color
  */
- .bg-primary{
+ .cs__bg-primary{
     background-color: var(--primary);
  }
 
- .bg-secondary{
+ .cs__bg-secondary{
     background-color: var(--secondary);
  }
 
- .bg-red{
+ .cs__bg-secondary-alt{
+   background-color: var(--secondary-alt);
+}
+
+ .cs__bg-red{
     background-color: var(--red);
  }
+
+ .cs__bg-black{
+   background-color: var(--black);
+}
+
+ /* 
+ * Define Text Color
+ */
+ .cs__t-primary{
+   color: var(--primary);
+}
+
+.cs__t-secondary{
+   color: var(--secondary);
+}
+
+.cs__t-red{
+   color: var(--red);
+}
 
 body a,
 body p{

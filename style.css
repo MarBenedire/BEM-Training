@@ -3,11 +3,11 @@
    background-color: var(--primary);
 }
 
-.header-container{
+.header__container{
    padding: 20px 10px;
 }
 
-.nav-item{
+.main-nav__item{
   padding: 0 0 0 16px;
   text-transform: uppercase;
   font-weight: 500;
@@ -51,12 +51,21 @@
  /* 
   * Enquire
   */
-  .enquire-column-40{
-   width: 40%;
+
+  .cs__enquire-column-40{
+    width: 40%;
    padding: 101px 0;
   }
 
-  .enquire-column-60{
+  .dealers__column-40{
+    width: 40%;
+  }
+
+  .dealers__column-60{
+    width: 60%;
+  }
+
+  .cs__enquire-column-60{
    width:60%;
    flex-direction: column;
   }
@@ -73,6 +82,25 @@
    background-color: var(--red);
    padding: 20px 40px;
   }
+
+  .dealers__shop-now,
+  .quality__learn-more-btn {
+    background-color: var(--secondary);
+    padding: 20px 40px;
+   }
+
+   .dealers__img-wood{
+      width: 60%;
+      padding-top: 6em;
+   }
+
+   .dealers__img{
+    width: 50%;
+ }
+
+   .dealers__text-container{
+      margin-left: -40px;
+   }
 
 
 
