@@ -32,21 +32,25 @@
    margin: auto;
 }
 
+.cs__m-t-10 {
+   margin: 10vh;
+}
+
 /* 
  * Define Dimension
  */
  .cs__w-100-h-80 {
-    width: 100%;
+    /* width: 100%; */
     height: 80vh;
  }
 
  .cs__w-100-h-80 {
-   width: 100%;
+   /* width: 100%; */
    height: 80vh;
  }
 
  .cs__w-100-h-20 {
-    width: 100%;
+    /* width: 100%; */
     height: 20em;
  }
 
@@ -80,6 +84,12 @@
     align-items: center;
 }
 
+.cs__d-flex-center-start {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
 .cs__d-flex-center-end {
     display: flex;
     justify-content: center;
@@ -88,6 +98,13 @@
 
 .cs__d-flex-column {
    flex-direction: column;
+}
+
+.cs__d-grid-4 {
+   display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    row-gap: 5rem;
 }
 
 /* 
@@ -116,12 +133,24 @@
    text-decoration: none;
 }
 
+.cs__s-20 {
+   font-size: 20px;
+}
+
 .cs__s-32 {
    font-size: 32px;
 }
 
 .cs__s-36 {
    font-size: 36px;
+}
+
+.cs__s-64 {
+   font-size: 64px;
+}
+
+.cs__w-700 {
+   font-weight: 700;
 }
 
  /* 

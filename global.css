@@ -7,6 +7,7 @@
  */
 :root {
     --primary: #292733;
+    --primary-alt: #888888;
     --secondary: #FFFFFF;
     --secondary-alt: #F1F3F4;
     --red: #C20502;
@@ -19,6 +20,10 @@
  .cs__bg-primary{
     background-color: var(--primary);
  }
+
+ .cs__bg-primary-alt{
+   background-color: var(--primary-alt);
+}
 
  .cs__bg-secondary{
     background-color: var(--secondary);
@@ -41,6 +46,10 @@
  */
  .cs__t-primary{
    color: var(--primary);
+}
+
+.cs__t-primary-alt{
+   color: var(--primary-alt);
 }
 
 .cs__t-secondary{
