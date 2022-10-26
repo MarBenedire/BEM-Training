@@ -28,6 +28,10 @@
    margin: 0;
 }
 
+.cs__m-auto {
+   margin: auto;
+}
+
 /* 
  * Define Dimension
  */
@@ -56,6 +60,10 @@
 
  .cs__h-80 {
    height: 80vh;
+ }
+
+ .cs__max-width{
+   max-width: 1440px;
  }
 
 
@@ -122,6 +130,7 @@
  .cs__bg-img-1{
     background-image: url(./assets/trademe-BG.png);
     background-repeat: no-repeat;
+    background-size: cover;
  }
 
  .cs__bg-img-2{
