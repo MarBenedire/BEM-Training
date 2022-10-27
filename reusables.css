@@ -1,6 +1,11 @@
 /* 
  * Define Padding
  */
+
+ .cs__p-0{
+   padding: 0;
+}
+
  .cs__p-r-only-56 {
     padding-right: 56px;
  }
@@ -29,8 +34,12 @@
    padding:0 70px;
 }
 
+.cs__p-t-b-10-s-15 {
+   padding:10px 15px;
+}
+
 /* 
- * Define Padding
+ * Define Margin
  */
  .cs__m-0 {
    margin: 0;
@@ -42,6 +51,10 @@
 
 .cs__m-t-10 {
    margin: 10vh;
+}
+
+.cs__m-t-20 {
+   margin-top: 20vh;
 }
 
 .cs__m-b-24 {
@@ -153,6 +166,14 @@
    text-decoration: none;
 }
 
+.cs__list-style-none {
+   list-style-type: none;
+}
+
+.cs__s-14 {
+   font-size: 14px;
+}
+
 .cs__s-20 {
    font-size: 20px;
 }
@@ -222,3 +243,21 @@
    background-size: cover;
 }
 
+
+/* 
+ * Define Box Shadows
+ */
+.cs__box-shadow {
+   box-shadow: 0px 1px 4px rgba(7, 87, 182, 0.15);
+}
+
+/* 
+ * Define Border 
+ */
+ .cs__b-r-left {
+   border-radius: 0px 8px 8px 0px;
+ }
+
+ .cs__b-r-right {
+   border-radius: 0px 8px 8px 0px; 
+}
