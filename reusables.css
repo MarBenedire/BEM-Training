@@ -6,6 +6,10 @@
    padding: 0;
 }
 
+.cs__p-10-s-32{
+   padding:10px 32px;
+}
+
  .cs__p-r-only-56 {
     padding-right: 56px;
  }
@@ -57,6 +61,10 @@
    margin-top: 20vh;
 }
 
+.cs__m-t-only-30 {
+   margin: 30vh 0;
+}
+
 .cs__m-b-24 {
    margin-bottom: 24px;
 }
@@ -91,6 +99,14 @@
     width: 35%;
  }
 
+ .cs__w-100 {
+   width: 100%;
+}
+
+.cs__h-3 {
+   height: 3em;
+ }
+
  .cs__h-50 {
    height: 50vh;
  }
@@ -101,6 +117,10 @@
 
  .cs__max-width{
    max-width: 1440px;
+ }
+
+ .cs__max-width-967{
+   max-width: 967px;
  }
 
 
